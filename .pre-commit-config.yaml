@@ -6,18 +6,18 @@ repos:
     rev: 02c491342ac7c7a4c0617c01ddd51f49010a77f6 # frozen: v2.12.1-beta
     hooks:
       - id: hadolint-docker
-        stages: [commit]
+        stages: [pre-commit]
 
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: cafd5506f18eea191804850dacc0a4264772d59d # frozen: v3.0.0-alpha.4
     hooks:
       - id: prettier
-        stages: [commit]
+        stages: [pre-commit]
         language_version: system
 
   - repo: https://github.com/koalaman/shellcheck-precommit
     rev: 3f77b826548d8dc2d26675f077361c92773b50a7 # frozen: v0.9.0
     hooks:
       - id: shellcheck
-        stages: [commit]
+        stages: [pre-commit]
         args: ['--external-sources']
