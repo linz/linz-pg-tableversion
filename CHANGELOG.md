@@ -2,10 +2,11 @@
 
 All notable changes for the PostgreSQL table version extension are documented in this file.
 
-## [1.10.4] - YYYY-MM-DD
+## [1.11.0] - 2024-11-07
 
 ### Added
 
+- Added support for "Auto Revisions"
 - Test upgrade between Debian packages
 
 ### Removed
