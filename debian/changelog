@@ -1,3 +1,9 @@
+postgresql-tableversion (1.11.0-linz~focal) focal; urgency=medium
+
+  * New version
+
+ -- Jeremy Palmer <jpalmer@linz.govt.nz>  Thu, 07 Nov 2024 19:01:01 +0000
+
 postgresql-tableversion (1.10.3-linz~bionic) bionic; urgency=medium
 
   * New version
