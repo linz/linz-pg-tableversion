@@ -2,10 +2,17 @@
 
 All notable changes for the PostgreSQL table version extension are documented in this file.
 
-## [1.10.4] - YYYY-MM-DD
+## [1.11.1] - 2024-11-08
 
 ### Added
 
+- Added packaging support PG 12-16 and add support Ubuntu 24.04 versions
+
+## [1.11.0] - 2024-11-07
+
+### Added
+
+- Added support for "Auto Revisions"
 - Test upgrade between Debian packages
 
 ### Removed
