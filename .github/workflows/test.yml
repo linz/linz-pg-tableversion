@@ -83,7 +83,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pg: ['11', '12', '13', '14']
+        pg: ['12', '13', '14', '15', '16']
         release: [20.04]
     steps:
       - name: Check out repository
@@ -102,7 +102,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pg: ['11', '12', '13', '14'] # TODO: '15'
+        pg: ['12', '13', '14', '15', '16']
         release: [20.04]
     steps:
       - name: Check out repository
@@ -122,7 +122,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pg: ['11', '12', '13', '14'] # TODO: '15'
+        pg: ['12', '13', '14', '15', '16']
         release: [20.04]
     steps:
       - name: Check out repository
@@ -142,7 +142,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pg: ['11', '12', '13', '14'] # TODO: '15'
+        pg: ['12', '13', '14', '15', '16']
         release: [20.04]
     steps:
       - name: Check out repository
@@ -178,7 +178,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        release: [20.04, 22.04]
+        release: [20.04, 22.04, 24.04]
       max-parallel: 1
     steps:
       - name: Check out repository
